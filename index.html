@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bếp Bà — Vietnamese Kitchen</title>
+<meta name="description" content="Family-style Vietnamese cooking — phở simmered overnight, bánh mì on bread baked each morning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:ital,opsz,wght@0,12..96,400..800;1,12..96,400..700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NOTE: All names, addresses, hours, prices and quotes below are fictional sample
+     content for a demo layout. Replace before any real use. -->
+
+<header class="nav">
+  <a class="nav__brand" href="#top">
+    <span class="badge" aria-hidden="true">BB</span>
+    <span class="nav__word">Bếp&nbsp;Bà</span>
+  </a>
+  <nav class="nav__links">
+    <a href="#menu">Menu</a>
+    <a href="#story">Our story</a>
+    <a href="#visit">Visit</a>
+  </nav>
+  <a class="btn btn--sm" href="tel:+15105550142">Order pickup</a>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="sign">
+      <div class="enamel-panel sign__frame stamp-in">
+        <span class="rivet"></span><span class="rivet"></span><span class="rivet"></span><span class="rivet"></span>
+        <h1 class="reveal reveal--1">Broth that takes<br>twelve hours.</h1>
+        <p class="lede reveal reveal--2">
+          Family-style Vietnamese cooking in Oakland — phở simmered overnight,
+          bánh mì on bread baked each morning, herbs from the garden out back.
+        </p>
+        <div class="hero__actions reveal reveal--3">
+          <a class="btn btn--cream" href="#menu">See the menu</a>
+          <a class="btn btn--outline" href="#visit">Find us</a>
+        </div>
+        <svg class="illus illus--seal" viewBox="0 0 240 220" xmlns="http://www.w3.org/2000/svg"
+             fill="none" stroke="currentColor" stroke-width="3"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <ellipse cx="120" cy="110" rx="80" ry="18"/>
+          <path d="M40,110 C46,165 88,196 120,196 C152,196 194,165 200,110"/>
+          <ellipse cx="120" cy="199" rx="28" ry="6"/>
+          <line x1="70" y1="96" x2="176" y2="40"/>
+          <line x1="85" y1="101" x2="190" y2="48"/>
+          <path d="M95,92 C88,78 102,68 95,54 C88,40 102,30 96,16" opacity="0.55"/>
+          <path d="M120,90 C113,74 128,64 120,48 C113,32 128,22 121,10" opacity="0.55"/>
+          <path d="M148,92 C141,78 156,68 149,54 C142,40 156,30 150,18" opacity="0.55"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="strip">
+    <div><strong>Open 6 days</strong><span>Closed Mondays</span></div>
+    <div><strong>Dine in &amp; pickup</strong><span>No delivery apps</span></div>
+    <div><strong>Family recipes</strong><span>Since 1997</span></div>
+  </section>
+
+  <section id="menu" class="section">
+    <div class="section__head">
+      <h2>What we cook</h2>
+      <p>A short menu, done properly. Specials on the chalkboard.</p>
+    </div>
+
+    <div class="menu">
+      <article class="dish">
+        <div class="dish__row"><h3>Phở Bò Tái</h3><span class="price">$16</span></div>
+        <p>Twelve-hour beef broth, rare steak, rice noodles, the full herb plate.</p>
+      </article>
+      <article class="dish">
+        <div class="dish__row"><h3>Bún Chả Hà Nội</h3><span class="price">$17</span></div>
+        <p>Charcoal-grilled pork patties, cold vermicelli, dipping broth, pickled kohlrabi.</p>
+      </article>
+      <article class="dish">
+        <div class="dish__row"><h3>Bánh Mì Thịt Nướng</h3><span class="price">$12</span></div>
+        <p>Lemongrass pork, pâté, cucumber, cilantro, house pickles on a morning baguette.</p>
+      </article>
+      <article class="dish">
+        <div class="dish__row"><h3>Cơm Tấm Sườn</h3><span class="price">$18</span></div>
+        <p>Broken rice, grilled pork chop, egg cake, scallion oil, nước chấm.</p>
+      </article>
+      <article class="dish">
+        <div class="dish__row"><h3>Gỏi Cuốn</h3><span class="price">$9</span></div>
+        <p>Fresh spring rolls, shrimp and pork, peanut sauce. Four to an order.</p>
+      </article>
+      <article class="dish">
+        <div class="dish__row"><h3>Cà Phê Sữa Đá</h3><span class="price">$5</span></div>
+        <p>Dark roast, phin-brewed, condensed milk, plenty of ice.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="story" class="section section--split">
+    <div class="split__art enamel-panel enamel-panel--mustard" aria-hidden="true">
+      <svg class="illus" viewBox="0 0 160 220" xmlns="http://www.w3.org/2000/svg"
+           fill="none" stroke="currentColor" stroke-width="3"
+           stroke-linecap="round" stroke-linejoin="round">
+        <path d="M84,214 C78,160 66,110 92,20"/>
+        <g transform="translate(84,190) rotate(205)"><path d="M0,0 C9,-8 23,-8 33,0 C23,8 9,8 0,0"/></g>
+        <g transform="translate(75,150) rotate(25)"><path d="M0,0 C9,-8 23,-8 33,0 C23,8 9,8 0,0"/></g>
+        <g transform="translate(78,112) rotate(200)"><path d="M0,0 C8,-7 20,-7 29,0 C20,7 8,7 0,0"/></g>
+        <g transform="translate(85,76) rotate(20)"><path d="M0,0 C8,-7 20,-7 29,0 C20,7 8,7 0,0"/></g>
+        <g transform="translate(90,42) rotate(205)"><path d="M0,0 C7,-6 17,-6 25,0 C17,6 7,6 0,0"/></g>
+      </svg>
+    </div>
+    <div class="split__body">
+      <h2>Bà started it.</h2>
+      <p>
+        In 1997 our grandmother sold bánh mì from a cart on International
+        Boulevard. Same bread order, same pâté recipe, same stubborn opinion
+        that broth is not ready until it is ready.
+      </p>
+      <p>
+        Two of her grandchildren run the kitchen now. She still comes in on
+        Saturdays to tell us the broth needs more time.
+      </p>
+      <div class="tag">
+        <p class="tag__quote">Nấu ăn không vội được.</p>
+        <p class="tag__attr">— You cannot rush cooking.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="visit" class="section visit">
+    <div class="section__head">
+      <h2>Come in</h2>
+      <p>Walk-ins only for parties under six. Call ahead for anything larger.</p>
+    </div>
+
+    <div class="visit__layout">
+      <div class="visit__hours">
+        <h3>Hours</h3>
+        <dl class="hours">
+          <div><dt>Tue – Thu</dt><dd>11:00 – 21:00</dd></div>
+          <div><dt>Fri – Sat</dt><dd>11:00 – 22:00</dd></div>
+          <div><dt>Sunday</dt><dd>11:00 – 20:00</dd></div>
+          <div><dt>Monday</dt><dd>Closed</dd></div>
+        </dl>
+      </div>
+
+      <div class="visit__side">
+        <div class="visit__address">
+          <h3>Find us</h3>
+          <address>
+            1842 Franklin Street<br>
+            Oakland, CA 94612
+          </address>
+          <p class="muted">Two blocks from 19th St BART. Street parking after 6pm.</p>
+        </div>
+
+        <div class="enamel-panel visit__pickup">
+          <span class="rivet"></span><span class="rivet"></span><span class="rivet"></span><span class="rivet"></span>
+          <h3>Order pickup</h3>
+          <p>Call the kitchen directly. Usually ready in 20 minutes.</p>
+          <a class="btn btn--cream" href="tel:+15105550142">(510) 555-0142</a>
+          <p class="muted">hello@bepba.example</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <p><span class="badge badge--sm" aria-hidden="true">BB</span> <strong>Bếp Bà</strong> · Vietnamese Kitchen · Oakland, CA</p>
+  <p class="muted">Sample site — all details are fictional.</p>
+</footer>
+
+</body>
+</html>
